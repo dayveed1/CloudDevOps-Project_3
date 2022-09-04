@@ -232,8 +232,8 @@ jobs:
           frontend: "udapeople-frontend-${CIRCLE_WORKFLOW_ID:0:7}"
           backend: "udapeople-backend-${CIRCLE_WORKFLOW_ID:0:7}"
           workflow_id: "${CIRCLE_WORKFLOW_ID:0:7}"
-      - rollback_migration:
-          workflow_id: "${CIRCLE_WORKFLOW_ID:0:7}"  
+      # - rollback_migration:
+      #     workflow_id: "${CIRCLE_WORKFLOW_ID:0:7}"  
         
 
 #   deploy-frontend:
