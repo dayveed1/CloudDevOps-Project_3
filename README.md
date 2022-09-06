@@ -66,3 +66,8 @@ Before you submit your project, please check your work against the project rubri
 
 [License](LICENSE.md)
 >>>>>>> My first Push is here
+
+
+<!-- https://github.com/dayveed1/CloudDevOps-Project_3 -->
+<!-- http://udapeople-df112ad.s3-website-us-east-1.amazonaws.com -->
+<!-- https://dmuuba9ces5bf.cloudfront.net -->
