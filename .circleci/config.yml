@@ -466,8 +466,7 @@ workflows:
       # - cleanup:
       #     requires: [cloudfront-update]
 
-      
-      # cd .circleci/files
+      #    cd .circleci/files
       # aws cloudformation deploy \
       #    --template-file cloudfront.yml \
       #    --stack-name InitialStack\
