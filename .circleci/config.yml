@@ -385,6 +385,7 @@ jobs:
             --region us-east-1 \
             --parameter-overrides WorkflowID="${CIRCLE_WORKFLOW_ID:0:7}" \
             --tags project=udapeople
+        
       # Here's where you will add some code to rollback on failure 
       - destroy-environment:
           frontend: "udapeople-frontend-${CIRCLE_WORKFLOW_ID:0:7}"
@@ -466,3 +467,8 @@ workflows:
       #     requires: [cloudfront-update]
 
       
+      # cd .circleci/files
+      # aws cloudformation deploy \
+      #    --template-file cloudfront.yml \
+      #    --stack-name InitialStack\
+      #    --parameter-overrides WorkflowID=udapeople-0229a7b
